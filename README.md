@@ -6,4 +6,6 @@ Homework repository for UMT Intro to Web Design Class
 
 -Created repository and structured according to Walkthrough for class.
 
--Created assignment-01.txt and populated.
+-Created responses.txt and populated.
+
+-Uploaded required picture. "self_portrait_resize.jpg"

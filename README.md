@@ -15,3 +15,9 @@ Homework repository for UMT Intro to Web Design Class
 -Created a basic HTML page.
 -Published to Github and made pages live.
 -Began Planning for final big site and home of all assignments.
+
+##Assignment 04:  (06/3/22)
+
+-Created Poem and Bio pages with accompanying graphics.
+-Went way overboard on this one because I got an idea stuck in my head of how I wanted it to look
+-Published to Github.

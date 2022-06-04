@@ -21,3 +21,9 @@ Homework repository for UMT Intro to Web Design Class
 -Created Poem and Bio pages with accompanying graphics.
 -Went way overboard on this one because I got an idea stuck in my head of how I wanted it to look
 -Published to Github.
+
+##Exercise 03:  (06/4/22)
+
+-Created Recipe page with links and graphics.
+-Updated README.
+-Published to GitHub. 

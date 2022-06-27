@@ -1,0 +1,18 @@
+Color by Hex:
+1.#f4f1ce general Text
+2.#f2b56c Titles and Bold Text
+3.#87a05e Menu Hovers
+4.#a0a996 Menu Base
+5.#0f1c08 Menu item Occupied
+
+Content:
+Title: Gugi, self hostedPersonal or company name 
+Sub-title: Orbitron Bold/underlined, Self hosted. motto
+sub-title 2: Orbitron, Self hosted. Current Page? ***If i can't find a way to keep the current page highlighted while you're there.
+content text: Teko, Self hosted. information
+
+
+@font-face {
+    font-family: "Gugi", "Courier New", monospace;
+    src: url("./fonts/Gugi/Gugi-Regular.ttf") format("truetype");
+}

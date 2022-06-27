@@ -49,6 +49,7 @@ Homework repository for UMT Intro to Web Design Class
 
 -Pushed to Github.
 
+
 ## Project 02 (6/27/22)
 
 -Created tutorial.
@@ -58,5 +59,16 @@ Homework repository for UMT Intro to Web Design Class
 -why am I doing this.
 
 -Update README.
+
+-Pushed to GitHub.
+
+
+##Project 05 (06/27/22)
+
+-I'm so tired.
+
+-Created Template for final site with placeholder text and images.
+
+-Updated README.
 
 -Pushed to GitHub.

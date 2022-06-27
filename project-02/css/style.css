@@ -1,0 +1,74 @@
+.hovertext {
+    position:relative;
+    border-bottom: 1px dotted black;
+}
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: 400%;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+  
+.hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: burlywood;
+}
+
+.bkg {
+   
+    background-image: url("./images/bkg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div {
+    background-color: rgba(0,0,0,0.7);
+    height:fit-content;
+    max-width: 80%;
+    margin:auto;
+    padding: 20px;
+}
+
+img{
+    max-width: 80%;
+    margin: auto;
+}
+
+#title {
+    text-align: center;
+    background: none;
+    text-decoration-line: overline underline;
+}
+
+#menu {
+    background-color: rgba(0,0,0,0.7);
+    max-height:7%;
+    max-width: 50%;
+    margin: auto;
+    position: sticky;
+    top:  6pt;
+    padding: 10px;
+}
+a:hover {
+    background-color: darkmagenta;
+}
+a:link, a:visited{
+    color:cornsilk
+}

@@ -1,0 +1,76 @@
+<html>
+    
+    <head>
+        <title></title>
+    </head>
+    <style>
+        body {
+            background-color: black;
+        }
+        img {
+            opacity: 0.2;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            
+        }
+        div {
+            margin: auto;
+            font-family:'Courier New', Courier, monospace;
+            text-align: center;
+            text-shadow: 8px;
+            color: chartreuse;
+            position: relative;
+        }
+        table {
+            border: collapse;
+            color: chartreuse;
+            text-align: center;
+            margin: auto;
+        }
+    </style>
+    <body>
+        <img src="./media/images/bkg_tile.gif">
+        <div>
+            <h1>Tom's Web Design</h1>
+            <address>
+                1520 8th Ave S, Great Falls, MT 59405 <br>
+                (406) 788-9165 <br>
+                <!--They do not have an email listed on their site-->
+                <a href="contact@tomswebdesign.net">contact@tomswebdesign.net</a> <br>
+                <a href="http://www.tomswebdesign.net/">tomswebdesign.net</a>
+            </address>
+            <form action="./form.php" method="post"></form>
+                <table>
+                    <tr>
+                        <td><label for="type" id="site_type" name="type">What kind of site are you looking for?</label>
+                        <select name="site_types" id="types">
+                            <option value="blog">Blog</option>
+                            <option value="info">Informative</option>
+                            <option value="busi">Business/Organization</option>
+                            <option value="pers">Personal</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dline" id="dline" name="dline">When do you need it by?</label>
+                        <input type ="date" id="dline" name="dline" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label>
+                        <input type="email" id="email" name="email" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name:</label>
+                        <input type="text" id="name" name="name" /></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="desc" id="desc" rows="10" cols="50" placeholder="Describe your desired site (500 characters)"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

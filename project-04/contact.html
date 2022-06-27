@@ -3,15 +3,54 @@
         <title>Zack Leach</title>
         <<link rel="stylesheet" href="./css/style.css">
     </head>
-    <body>
+    <body class="bkg">
         <table id="navmenu">
             <th><a href="./index.html">Home</a></th>
             <th><a href="./about.html">About</a</th>
             <th><a href="./services.html">Services</a</th>
-            <th><a href="./contact.html">Contact</a</th>
+                <th class="currentpage">Contact</th>
         </table>
-        <div class="content">
-
+        <div>
+            <div id="titleholder">
+                <img src="./images/Logo.gif" class="center">
+                <h1>RoboFungus</h1>
+                <h2>It'll grow on you....</h2>
+            </div>
+            <form action="./index.html" method="get"></form>
+                <table id="contactform">
+                    <tr>
+                        <td><label for="type" id="site_type" name="type">How can we help you today?</label>
+                        <select name="site_types" id="types">
+                            <option value="void"></option>
+                            <option value="blog">General Contact</option>
+                            <option value="info">Art Commision</option>
+                            <option value="busi">Cosplay Commision</option>
+                            <option value="pers">Podcast</option>
+                            <option value="pers">Game Developmemt</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label>
+                        <input type="email" id="email" name="email" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name:</label>
+                        <input type="text" id="name" name="name" /></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="desc" id="desc" rows="10" cols="50" placeholder="Please leave a description of what you are looking for. (500 characters)"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
         </div>
+        <hr>
+        <p class="legal">I own all of the content on this site with all rights 
+            reserved under the creative commons free liscense. Any unsolicited 
+            use of property therein will be pursued to the fullest extent of 
+            our capabilities.</p>
+    </body>
     </body>
 </html>

@@ -48,3 +48,15 @@ Homework repository for UMT Intro to Web Design Class
 -Update README.
 
 -Pushed to Github.
+
+## Project 02 (6/27/22)
+
+-Created tutorial.
+
+-almost died from being up for 3 days playing catch up.
+
+-why am I doing this.
+
+-Update README.
+
+-Pushed to GitHub.

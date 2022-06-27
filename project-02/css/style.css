@@ -32,10 +32,7 @@ body {
 
 .bkg {
    
-    background-image: url("./images/bkg.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color:rgb(70, 31, 5);
 }
 
 div {

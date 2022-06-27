@@ -4,14 +4,44 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body class="bkg">
-        <div id="menu">
-            <ul>
-                <li>Tutorial</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Get Blender</li>
-            </ul>
+        <table id="menu">
+            <th><a href="./index.html" class="menu_item">Tutorial</a> | </th>
+            <th><a href="./about.html" class="menu_item">About</a> | </th>
+            <th><a href="./contact.html" class="menu_item">Contact</a> | </th>
+            <th><a href="https://www.blender.org/" class="menu_item">Get Blender</a></th>
+        </table>
+        <div>
+            <form action="https://www.youtube.com/watch?v=dQw4w9WgXcQ" method="get"></form>
+                <table>
+                    <tr>
+                        <td><label for="type" id="site_type" name="type">How did you like the tutorial?</label>
+                        <select name="site_types" id="types">
+                            <option value="blog">Great!</option>
+                            <option value="info">Informative</option>
+                            <option value="busi">It was alright</option>
+                            <option value="pers">Didn't care for it</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dline" id="dline" name="dline">When did you see this tutorial</label>
+                        <input type ="date" id="dline" name="dline" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label>
+                        <input type="email" id="email" name="email" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name:</label>
+                        <input type="text" id="name" name="name" /></td>
+                    </tr>
+                    <tr>
+                        <td><textarea name="desc" id="desc" rows="10" cols="50" placeholder="Do you have any questions? (500 characters)"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><button type="submit">Submit</button></td>
+                    </tr>
+                </table>
+            </form>
         </div>
-
     </body>
 </html>
